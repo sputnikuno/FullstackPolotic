@@ -6,6 +6,6 @@
  */
 package guiaUno;
 
-public class EjercicioOcho {
+public class Ejercicio8 {
     
 }

@@ -5,7 +5,7 @@
 
 package guiaUno;
 
-public class EjercicioCuatro {
+public class Ejercicio4 {
   
      public static void main(String[] args){
         

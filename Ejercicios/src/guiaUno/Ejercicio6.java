@@ -7,7 +7,7 @@ package guiaUno;
 
 import java.util.Scanner;
 
-public class EjercicioSeis {
+public class Ejercicio6 {
     public static void main(String [] args ){
         Scanner lectorDeEntrada = new Scanner(System.in);
         
