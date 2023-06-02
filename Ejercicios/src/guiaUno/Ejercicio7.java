@@ -20,8 +20,11 @@ public class Ejercicio7 {
         int edad2 = lectorDeEntrada.nextInt();
         
         edad1 = edad1 ^ edad2;
+        //edad 1 se vuelve otro número resultado de la comparación de bits entre edad1 y edad2
         edad2 = edad1 ^ edad2;
+        //edad2 se vuelve la edad1 inicial resultado de la comparación de bits entre la edad1 nueva y edad2 inicial               
         edad1 = edad1 ^ edad2;
+        //edad 1 se vuelve la edad2 inicial resultado de la comparación de bits entre los valores de la operación anterior   
         
         System.out.println("El valor de la edad 1 es " + edad1 + " y el valor de la edad 2 es " + edad2);
     }

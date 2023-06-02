@@ -11,10 +11,21 @@
  */
 package guiaUno;
 
-/**
- *
- * @author Georgina
- */
+import java.util.Scanner;
+
 public class Ejercicio9 {
+    public static void main(String[] args){
+        Scanner lectorDeEntrada = new Scanner(System.in);
+        
+        System.out.println("Ingresa un monto de dinero en pesos");
+        float pesos = lectorDeEntrada.nextFloat();
+        
+        float dolar = pesos / 231.68f; 
+        float euro = pesos / 250.69f;
+        float guaranies = 31.00f * pesos;
+        float real = pesos / 46.81f;
+        
+        System.out.printf("Estos son sus equivalentes en:\nDólares: %.2f \nEuros: %.2f \nGuaraníes: %.2f \nReales: %.2f\n", dolar,euro, guaranies, real);
+    }
     
 }
