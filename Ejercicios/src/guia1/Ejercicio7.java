@@ -5,7 +5,7 @@
  * los  valores  edad1  =  24  y  edad2  =  35,  el  programa  deberá 
  * mostrar edad1 = 35 y edad2 = 24
  */
-package guiaUno;
+package guia1;
 
 import java.util.Scanner;
 

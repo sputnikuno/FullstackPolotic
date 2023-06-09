@@ -5,7 +5,7 @@
 * area = PI × radio² perimetro = 2 × PI × radio
 */
 
-package guiaUno;
+package guia1;
 
 import java.util.Scanner;
 

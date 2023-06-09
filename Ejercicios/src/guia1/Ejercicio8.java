@@ -4,7 +4,7 @@
  * Las fórmulas para conversiones son:
  * Kelvin = 273,15 + Celsius Fahrenheit = 1,8 × Celsius
  */
-package guiaUno;
+package guia1;
 
 import java.util.Scanner;
 

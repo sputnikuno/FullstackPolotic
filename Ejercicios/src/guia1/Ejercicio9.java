@@ -9,7 +9,7 @@
  * Tip: en  este  ejercicio  se  puede  usar  la  función printf 
  * y  mostrar  el resultado con dos decimales.
  */
-package guiaUno;
+package guia1;
 
 import java.util.Scanner;
 

@@ -6,7 +6,7 @@
 
 
 
-package guiaUno;
+package guia1;
 
 import java.util.Scanner;
 

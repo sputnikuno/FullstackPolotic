@@ -3,7 +3,7 @@
 * con el nombre que ingresó el usuario.
 */
 
-package guiaUno;
+package guia1;
 
 import java.util.Scanner;
 

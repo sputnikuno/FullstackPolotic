@@ -3,7 +3,7 @@
  * de  descuento.  A  continuación  mostrar  por  pantalla  el  importe 
  * descontado y el importe a pagar.
  */
-package guiaUno;
+package guia1;
 
 import java.util.Scanner;
 

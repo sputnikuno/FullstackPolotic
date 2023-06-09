@@ -3,7 +3,7 @@
 * calcule el promedio de la altura de ellos y lo informe.
 */ 
 
-package guiaUno;
+package guia1;
 
 public class Ejercicio4 {
   
