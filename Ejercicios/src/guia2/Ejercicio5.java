@@ -5,10 +5,21 @@
  */
 package guia2;
 
-/**
- *
- * @author Georgina
- */
+import java.util.Scanner;
+
 public class Ejercicio5 {
-    
+    public static void main(String[] args) {
+        Scanner lector = new Scanner(System.in);
+        
+        System.out.println("Ingresa un número");
+        int valor = lector.nextInt();
+        
+        int cero = 0;
+        int uno = 1;
+        
+        for (int i = 0; i<valor; i++){
+            
+        }
+        
+    }
 }
