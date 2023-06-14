@@ -6,10 +6,11 @@
  */
 package guia2;
 
-/**
- *
- * @author Georgina
- */
+
 public class Ejercicio6 {
     
+    
+    public static void main(String[] args) {
+
+    }
 }

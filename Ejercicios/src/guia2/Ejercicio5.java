@@ -11,14 +11,17 @@ public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
         
-        System.out.println("Ingresa un número");
+        System.out.println("Ingresa un número: ");
         int valor = lector.nextInt();
         
-        int cero = 0;
-        int uno = 1;
+        int a = 0, b = 1, c;
         
-        for (int i = 0; i<valor; i++){
-            
+        for (int i = 0; i < valor; i++){
+            System.out.println(a);
+            c = a + b;
+            a = b;
+            b = c;
+                    
         }
         
     }
