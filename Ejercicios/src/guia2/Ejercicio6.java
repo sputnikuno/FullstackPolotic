@@ -8,9 +8,22 @@ package guia2;
 
 
 public class Ejercicio6 {
-    
-    
     public static void main(String[] args) {
+    int n = 200; 
+    
+    for (int i = 2; i <= n; i++) {
+            boolean esPrimo = true;
 
+            for (int j = 2; j <= i/2; j++) {
+                if (i % j == 0) {
+                    esPrimo = false;
+                    break;
+                }
+            }
+
+            if (esPrimo) {
+                System.out.println(i);
+            }
+        }
     }
 }
