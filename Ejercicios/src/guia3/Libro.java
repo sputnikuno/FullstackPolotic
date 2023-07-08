@@ -36,14 +36,13 @@ public class Libro {
     //metodo de la clase para cargar un libroinofrma
     public void cargarLibro() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Por favor ingresa los datos del libro");
-        System.out.println("Ingresa el título");
+        System.out.println("Por favor ingresa los siguientes datos:\nTítulo:");
         titulo = scanner.nextLine();
-        System.out.println("Ingresa los datos del libro el/la autor/a");
+        System.out.println("Autor/a:");
         autor = scanner.nextLine();
-        System.out.println("Ingresa el numero de paginas");
+        System.out.println("Numero de páginas:");
         paginas = scanner.nextInt();
-        System.out.println("Ingresa el ISBN");
+        System.out.println("ISBN:");
         isbn = scanner.nextInt();
     }
 
