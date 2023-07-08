@@ -18,15 +18,15 @@ import java.util.Scanner;
 public class Libro {
 
     //atributos
-    private String titulo, isbn, autor;
-    private int paginas;
+    private String titulo, autor;
+    private int paginas, isbn;
 
     //constructor vacio
     public Libro() {
     }
 
     //constructor con parametros
-    public Libro(String titulo, String isbn, String autor, int paginas) {
+    public Libro(String titulo, int isbn, String autor, int paginas) {
         this.titulo = titulo;
         this.isbn = isbn;
         this.autor = autor;
@@ -44,7 +44,7 @@ public class Libro {
         System.out.println("Ingresa el numero de paginas");
         paginas = scanner.nextInt();
         System.out.println("Ingresa el ISBN");
-        isbn = scanner.nextLine();
+        isbn = scanner.nextInt();
     }
 
     //metodo de la clase para para devolver datos del libro
